@@ -10,3 +10,4 @@ terraform apply -auto-approve
 
 terraform apply -var-file="variables.tfvars"
 
+terraform destroy --target=module.module_dev
